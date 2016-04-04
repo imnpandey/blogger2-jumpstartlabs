@@ -1,5 +1,6 @@
 class AuthorSessionsController < ApplicationController
 
+
   def new
     if logged_in?
       flash.now.notice = "Already Logged In."
